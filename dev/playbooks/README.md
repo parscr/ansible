@@ -1,7 +1,7 @@
 ##On control host, login as ansible and create ssh-key (If it does not already exist)
-
+```
 $ ssh-keygen
-
+```
 ## run playbook ; enter root password!
 
 $ ansible-playbook -i hosts  create-ansible-user.yaml --ask-pass
