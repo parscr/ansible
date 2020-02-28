@@ -1,4 +1,4 @@
-create-ansible-user.yml
+create-ansible-user.yaml
 
 On control host, login as ansible and create ssh-key (If it does not already exist)
 ```
